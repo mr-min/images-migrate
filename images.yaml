@@ -19,6 +19,6 @@ target:
     - linux/amd64
 
 images:
-  - source: kvcacheai/mooncake:0.3.11.post1
+  - source: docker.m.daocloud.io/kvcacheai/mooncake:0.3.11.post1
     target: kvcacheai/mooncake-openeuler22-amd64:0.3.11.post1
     multiarch: false
