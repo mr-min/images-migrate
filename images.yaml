@@ -13,11 +13,11 @@
 
 target:
   registry: hub-pub.jdcloud.com
-  namespace: jdaip-system
+  namespace: joybuilder
   platforms:
     - linux/amd64
 
 images:
-  - source: lmsysorg/sglang:v0.5.19
-    target: lmsysorg/sglang:v0.5.19
+  - source: kvcacheai/mooncake:0.3.11.post1
+    target: kvcacheai/mooncake-openeuler22-amd64:0.3.11.post1
     multiarch: false
