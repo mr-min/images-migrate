@@ -10,6 +10,7 @@
 #                      false/省略 表示单架构（走 pull → tag → push）
 #
 # 最终目标地址 = <registry>/<namespace>/<target 或 source 末段>
+#
 
 target:
   registry: hub-pub.jdcloud.com
