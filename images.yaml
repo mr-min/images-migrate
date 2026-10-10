@@ -16,7 +16,7 @@ target:
   registry: hub-pub.jdcloud.com
   namespace: joybuilder
   platforms:
-    - linux/amd64
+    - linux/arm64
 
 images:
   - source: docker.m.daocloud.io/kvcacheai/mooncake:0.3.11.post1
